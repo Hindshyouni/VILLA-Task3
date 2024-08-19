@@ -1,0 +1,45 @@
+form{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 500px;
+    height: 450px;
+    position: relative;
+    z-index: 5 !important;
+    
+   
+    
+}
+form div{
+   margin: 10px 20px;
+   display: flex;
+   flex-direction: column;
+}
+form input ,
+.textarea {
+    padding: 10px 100px;
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(236, 234, 232);
+    width: 100%;
+}
+form::placeholder{
+    color: black;
+  
+}
+form label{
+    margin-bottom: 5px;
+}
+form button{
+    padding: 15px 25px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    margin: 0 20px;
+    
+   
+}
+

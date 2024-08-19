@@ -1,0 +1,41 @@
+.Experience-card{
+    width: 250px;
+    height: 100px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffeee9;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    
+    
+}
+.Experience-card::after{
+    content: "";
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #f35525;
+    top: -25px;
+    right: -25px;
+}
+.Experience-card span{
+    color: #f35525;
+    font-size: 40px;
+    font-weight: bold;
+}
+.Experience-card p{
+ color: #2c221e;
+ font-size: 20px;
+ padding-bottom: 5px;
+}
+
+@media (max-width:769px){
+    .Experience-card{
+        margin: 20px 0;
+    }
+    
+    
+}
