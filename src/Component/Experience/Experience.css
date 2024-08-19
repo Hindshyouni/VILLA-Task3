@@ -29,7 +29,7 @@
 .Experience-card p{
  color: #2c221e;
  font-size: 20px;
- padding-bottom: 5px;
+margin-bottom: 0;
 }
 
 @media (max-width:769px){

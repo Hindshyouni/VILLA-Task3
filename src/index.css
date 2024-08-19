@@ -4,3 +4,6 @@
   box-sizing: border-box;
  font-family: initial;
 }
+body{
+  overflow-x: hidden;
+}

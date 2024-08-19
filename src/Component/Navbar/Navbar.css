@@ -71,9 +71,10 @@ margin-left: 15px;}
 }
 .link-nav a{
     text-decoration: none;
+    color: #000000 !important; 
 }
 .link-nav ul li a{
-    color:#666666  ;
+    color: #000000 !important;  
     font-size: 17px;
     cursor: pointer;
     padding: 0.7rem 1rem;
