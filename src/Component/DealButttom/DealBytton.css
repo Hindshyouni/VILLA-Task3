@@ -1,0 +1,23 @@
+.deal-buttom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+    
+}
+.deal-buttom button{
+    padding: 15px 40px;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.deal-buttom button:hover{
+    transition: 0.5s !important;
+    background-color: #f35525;
+}

@@ -1,0 +1,48 @@
+.section2-property{
+    display: flex;
+    justify-content:space-between;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 80px;
+   
+    
+}
+.margacc{
+
+    width: 800px;
+    margin: 20px 80px;
+   
+}
+.margacc p{
+    color: #b6b5b5;
+    padding: 10px 0;
+}
+.margacc p span{
+    color: rgb(8, 139, 246);
+}
+@media (max-width:992px){
+    .margacc{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 500px;
+        margin: 20px 60px;
+} 
+
+        .section2-property{
+          
+            justify-content:center;
+            align-items: center;
+            margin: 0;
+           
+           
+            
+        }
+}
+@media (max-width:600px){
+    .margacc{
+
+        width: 300px;} 
+}

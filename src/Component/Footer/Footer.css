@@ -4,6 +4,7 @@ footer{
     justify-content: center;
     background-color: #1e1e1e;
     color: white;
+    height: 80px;
 }
 @media (max-width:768px){
     footer span {

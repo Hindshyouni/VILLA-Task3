@@ -8,6 +8,13 @@ import Video from './Component/Video/Video'
 import Map from './Component/Map/Map'
 import Header from './Component/Header/Header'
 import Footer from './Component/Footer/Footer'
+import { Route, Routes } from 'react-router-dom'
+import Home from './pages/Home/Home'
+import Property from './pages/Property/Property'
+import Contact from './pages/Contact/Contact'
+import Propertys from './pages/Propertys/Propertys'
+
+
 
 
 function App() {
@@ -15,13 +22,17 @@ function App() {
 
   return (
     <>
-     <Navbar/>
-     <Header />
-     <Feauterd/>
-     <Video/>
-     <Deal/>
-     <Properties/>
-     <Map />
+
+   <Navbar/> 
+    <Routes>
+      <Route path="/" element={ <Home/>} />
+      <Route path="/property" element={ <Property/>} />
+      <Route path="/contact" element={ <Contact/>} />
+      <Route path="/propertys" element={ <Propertys/>} />
+      
+    </Routes>
+     
+     
      <Footer />
 
     </>

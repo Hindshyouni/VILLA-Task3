@@ -1,0 +1,26 @@
+.properties-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 80px ;
+}
+.properties-btn button{
+    background-color: #1e1e1e;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 20px;
+}
+.properties-btn button:hover{
+    background-color: #f35525;
+    transition: 0.5s !important;
+}
+@media (max-width:769px){
+    .properties-btn{
+        flex-wrap: wrap;
+    }
+    .properties-btn button{
+        margin: 10px;
+    }
+}

@@ -1,8 +1,8 @@
 .gmap-frame{
     display: flex;
     flex-direction: column;
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 550px;
     
 }
 .gmap{
@@ -10,46 +10,9 @@
     width: 100%;
 }
 
-.phone{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  gap: 20px;
-  margin: 30px 0;
 
-}
-.phone .phone-info{
-    width: 218px;
-    height:100px;
-    border: none;
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-
-}
-.phone .phone-info p{
-    font-size: 20px;
-    font-weight: bold;
-}
-.phone .phone-info img{
-    width: 50px;
-    height: 50px;
-}
 @media (max-width:768px){
-    .gmap-frame{
-        width: 298px !important;
-        /* height: 350px !important; */
-        margin-top: 88px;
-    } 
-    form {
-        width: 350px !important;
-        
-    }
-    .map-div {
-        margin-top: -100px;
-    }
+
     .phone .phone-info{
         width: 140px;
         height: 100px;

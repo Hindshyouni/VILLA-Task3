@@ -1,0 +1,21 @@
+.deal-div2-info{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 250px;
+}
+.deal-div2-info span{
+    font-weight: bold;
+    margin-left: 35px;
+    font-size: 25px;
+    color: black;
+}
+.deal-div2-info p{
+    margin: 20px 20px;
+    color: #b8bfc1;
+}
+.deal-div2-info hr{
+border: 0;
+height: 1px;
+background:  #ccd5d8;
+margin: 11px 22px;
+width: 80%;}
