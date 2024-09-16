@@ -34,9 +34,13 @@ height: 60vh;
     .heroTitle span{
         font-size: 15px;
     }
+    .text-white {
+        padding-bottom: 20px !important;
+    }
     .heroTitle h1{
         font-size: 20px;
     }
+   
 }
 @media (max-width:400px){
     .heroTitle span{
@@ -45,4 +49,5 @@ height: 60vh;
     .heroTitle h1{
         font-size: 20px;
     }
+  
 }
