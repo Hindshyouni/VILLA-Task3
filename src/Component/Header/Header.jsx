@@ -14,12 +14,12 @@ const Header = () => {
         src={imgslide1}
         alt="First slide"
       />
-      <Carousel.Caption>
+      <Carousel.Caption >
         <div className='text-white '>
         <h1 >HURRY !</h1>
         <h1>GET THE</h1>
         <h1> BEST VILLA</h1>
-        <h1>FOR YOU</h1>
+        
         </div>
         
       </Carousel.Caption>
@@ -30,12 +30,12 @@ const Header = () => {
         src={imgslide2}
         alt="Second slide"
       />
-      <Carousel.Caption >
-      <div className='text-white '>
+      <Carousel.Caption  >
+      <div className='text-white  '>
         <h1 >HURRY !</h1>
         <h1>GET THE</h1>
         <h1> BEST VILLA</h1>
-        <h1>FOR YOU</h1>
+       
         </div>
       </Carousel.Caption>
     </Carousel.Item>
@@ -45,12 +45,12 @@ const Header = () => {
         src={imgslide3}
         alt="Third slide"
       />
-      <Carousel.Caption>
-      <div className='text-white '>
+      <Carousel.Caption >
+      <div className='text-white  '>
         <h1 >HURRY !</h1>
         <h1>GET THE</h1>
         <h1> BEST VILLA</h1>
-        <h1>FOR YOU</h1>
+        
         </div>
       </Carousel.Caption>
     </Carousel.Item>
