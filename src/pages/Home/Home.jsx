@@ -18,6 +18,7 @@ const Home = () => {
     <Deal/>
     <CardComponent cardCount={6} />
     <Map />
+    
     <Outlet/>
     </>
   )
