@@ -19,7 +19,6 @@ const Header = () => {
         <h1 >HURRY !</h1>
         <h1>GET THE</h1>
         <h1> BEST VILLA</h1>
-        
         </div>
         
       </Carousel.Caption>
@@ -35,7 +34,6 @@ const Header = () => {
         <h1 >HURRY !</h1>
         <h1>GET THE</h1>
         <h1> BEST VILLA</h1>
-       
         </div>
       </Carousel.Caption>
     </Carousel.Item>
@@ -50,7 +48,6 @@ const Header = () => {
         <h1 >HURRY !</h1>
         <h1>GET THE</h1>
         <h1> BEST VILLA</h1>
-        
         </div>
       </Carousel.Caption>
     </Carousel.Item>
