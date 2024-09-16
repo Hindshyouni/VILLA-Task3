@@ -142,3 +142,5 @@ const CardComponent = ({ cardCount}) => {
 }
 
 export default CardComponent
+
+

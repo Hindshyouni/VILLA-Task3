@@ -6,7 +6,7 @@ import DealImg from "../DealImg/DealImg";
 import InformationDeal from "../InformationDeal/InformationDeal";
 
 export const Deal = () => {
-  const [selectDeal, setSelectDeal] = useState("apartment");
+  const [selectDeal, setSelectDeal] = useState ("apartment");
 
   return (
     <>

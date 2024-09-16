@@ -19,3 +19,5 @@ const DealImg = ({ selectDeal }) => {
 }
 
 export default DealImg
+
+

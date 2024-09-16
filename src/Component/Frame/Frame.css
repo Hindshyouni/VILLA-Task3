@@ -14,8 +14,10 @@
 @media (max-width:768px){
 
     .phone .phone-info{
-        width: 140px;
-        height: 100px;
+        
+           
+            height: 100px;
+            width: 60%;
     }
     .phone .phone-info p{
         font-size: 13px;
@@ -24,6 +26,7 @@
         width: 35px;
         height: 35px;
     }
+
 
 }
 
