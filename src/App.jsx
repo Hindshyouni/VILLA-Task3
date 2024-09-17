@@ -13,6 +13,7 @@ import Home from './pages/Home/Home'
 import Property from './pages/Property/Property'
 import Contact from './pages/Contact/Contact'
 import Propertys from './pages/Propertys/Propertys'
+import { Navigate } from 'react-router-dom';
 
 
 
@@ -24,13 +25,13 @@ function App() {
     <>
 
    <Navbar/> 
-    <Routes>
-      <Route path="/" element={ <Home/>} />
-      <Route path="property" element={ <Property/>} />
-      <Route path="contact" element={ <Contact/>} />
-      <Route path="propertys" element={ <Propertys/>} />
-      
-    </Routes>
+   <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="property" element={<Property />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="propertys" element={<Propertys />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
+      </Routes>
      
      
      <Footer />
