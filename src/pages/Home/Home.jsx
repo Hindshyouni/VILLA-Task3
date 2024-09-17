@@ -1,5 +1,4 @@
 import React from 'react'
-import { Outlet } from 'react-router-dom'
 import CardComponent from '../../Component/CardComponent/CardComponent'
 import { Deal } from '../../Component/Deal/Deal'
 import { Feauterd } from '../../Component/Feauterd/Feauterd'
@@ -19,7 +18,7 @@ const Home = () => {
     <CardComponent cardCount={6} />
     <Map />
     
-    <Outlet/>
+    
     </>
   )
 }
